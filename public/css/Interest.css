@@ -1,0 +1,28 @@
+.one{
+    position: absolute;
+    top:30%;
+    left:30%;
+     background-color: aquamarine; 
+}
+
+body{
+    background-color: aqua;
+}
+td{
+    text-align: center;
+}
+input{
+    width:100%;
+    height:30px;
+}
+#res{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#res span{
+    border: 1px solid red;
+    background-color: rgb(222, 161, 17);
+    color: brown;
+}

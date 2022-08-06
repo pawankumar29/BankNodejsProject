@@ -1,0 +1,35 @@
+h1{
+    color: green;
+}
+.one{
+    text-align: center;
+    border: 1px solid red;
+    background-color: aquamarine;
+}
+
+table{
+    position: absolute;
+    left:40%;
+    top:20%;
+    border:1px solid red;
+    background-color: aqua;
+  
+}
+/* body{
+     background-color: antiquewhite; 
+} */
+
+table tr td{
+    padding:1px 2px;
+}
+
+body{
+    background-image: url("../static_img/bank1.jpg");
+    /* background-color: aqua; */
+    background-size: cover;
+}
+#sp{
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+}

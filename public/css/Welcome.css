@@ -1,0 +1,23 @@
+body{
+    background-image: url("../static_img/Welcome.jpg");
+    background-size: cover;
+}
+
+.one{
+    position:absolute;
+    top:5%;
+    left:30%;
+    text-align: center;
+}
+
+.one li a{
+    font-size: 50px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+h1{
+    font-size: 50px;
+}
+

@@ -1,0 +1,15 @@
+body{
+    background-color: greenyellow;
+
+}
+
+.one{
+    position: absolute;
+    top:30%;
+    left:30%;
+    font-size: 20px;
+}
+span{
+    font-size: 50px;
+    font-weight: bold;
+}

@@ -1,18 +1,72 @@
-h1{
-    color: green;
-}
-.one{
-    text-align: center;
-    border: 1px solid red;
+body{
+    background-image: url("../static_img/download.jpg");
+  
+    background-size: cover;
+    
+    background-repeat: no-repeat; 
+    
 }
 
-table{
-    position: absolute;
-    left:40%;
-    top:20%;
-    border:1px solid red;
-    background-color: aqua;
+.one{
+    
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(236, 216, 37);
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 20px; */
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    height: 50px;
 }
-body{
-    background-color: antiquewhite;
+
+.option ul li{
+    list-style: none;
+    
+    text-decoration: none;
+    /* background-color: rgb(43, 226, 86); */
+    /* padding:2px 20px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.option ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    
+}
+
+.option ul li:hover{
+    background-color: brown;
+}
+
+
+.option ul{
+    
+    display:flex;
+    
+    flex-direction: row;
+
+}
+
+.two .tw {
+    position: absolute;
+   
+   width: 100%;
+   
+    top:40%;
+    left:30%;
+    text-decoration: wavy;
+    display: inline;
+
+}
+.two .tw h1{
+    font-size: 60px;
+    color: green;
+}
+#logo{
+    margin-left: 10px;
+    color: black;
 }
